@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"],
+    "target": "es2020",
+    "module": "es2020",
+    "lib": ["es2020", "dom"],
+    "paths": {
+      "@ixxi/ticketing-graphic-kit": ["projects/ticketing-graphic-kit/src/public-api.ts"],
+      "@ixxi/ticketing-lib-ui-library": ["projects/ticketing-lib-ui-library/src/public-api.ts"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.stories.*", "projects/schematics/**/*"]
+}

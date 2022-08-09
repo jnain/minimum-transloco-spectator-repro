@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ticketing-lib-ui-library",
+  "assets": ["./src/assets"],
+  "lib": {
+    "entryFile": "src/index.ts",
+    "styleIncludePaths": [
+      "../../node_modules/@ixxi/ticketing-graphic-kit/src/assets/sass",
+      "../../dist/ticketing-graphic-kit/src/assets/sass"
+    ]
+  }
+}

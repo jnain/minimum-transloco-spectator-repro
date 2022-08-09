@@ -1,0 +1,12 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.spec.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/spec",
+    "paths": {
+      "@ixxi/ticketing-graphic-kit": ["projects/ticketing-graphic-kit/src/public-api.ts"]
+    }
+  },
+  "files": ["src/test.ts"],
+  "include": ["**/*.spec.ts", "**/*.d.ts"]
+}

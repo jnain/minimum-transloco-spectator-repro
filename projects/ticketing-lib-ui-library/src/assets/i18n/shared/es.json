@@ -1,0 +1,630 @@
+{
+  "SIDEBAR": {
+    "HOME": "Inicio",
+    "ORGANIZATION": "Organización",
+    "SERVICE_OFFER": "Oferta de servicio",
+    "CUSTOMERS": "Clientes",
+    "EQUIPMENT": "Equipos",
+    "APPLICATIONS": "Aplicaciones",
+    "SUPERVISION": "Supervisión",
+    "MEDIA_AND_TICKETS": "Soportes y títulos",
+    "FINANCIAL_MANAGEMENT": "Gestión financiera",
+    "ADMINISTRATION": "Administración",
+    "LANGUAGE": "Idioma",
+    "HELP": {
+      "LABEL": "Ayuda",
+      "MANUAL": "Manual de usuario",
+      "ABOUT": "Sobre…"
+    }
+  },
+  "BREADCRUMB": {
+    "WELCOME": "Bienvenido a su portal de administración",
+    "EQUIPMENTS": {
+      "LABEL": "Equipos",
+      "SECURITY_MODULES": {
+        "LABEL": "Módulos de seguridad",
+        "SAM_TYPES_CREATE": {
+          "LABEL": "Nuevo tipo de SAM"
+        },
+        "SAM_TYPES_EDIT": {
+          "LABEL": "Tipo de SAM {{samTypeLabel}}"
+        }
+      },
+      "VEHICLES": {
+        "LABEL": "Vehículos",
+        "CREATE": {
+          "LABEL": "Nuevo vehículo"
+        },
+        "EDIT": {
+          "LABEL": "Vehículo {{vehicleLabel}}"
+        }
+      },
+      "EQUIPMENT_PARK": {
+        "LABEL": "Parque de equipos",
+        "EQUIPMENT_MODEL_EDIT": {
+          "LABEL": "Modelo de equipo {{modelLabel}}",
+          "EQUIPMENT_DEVICE_CREATE": {
+            "LABEL": "Nuevo equipo"
+          },
+          "EQUIPMENT_DEVICE_EDIT": {
+            "LABEL": "Equipo {{deviceLabel}}"
+          }
+        },
+        "EQUIPMENT_GROUP_CREATE": {
+          "LABEL": "Nuevo grupo de equipos"
+        },
+        "EQUIPMENT_GROUP_EDIT": {
+          "LABEL": "Grupo {{groupLabel}}",
+          "EQUIPMENT_DEVICE_CREATE": {
+            "LABEL": "Nuevo equipo"
+          },
+          "EQUIPMENT_DEVICE_EDIT": {
+            "LABEL": "Equipo {{deviceLabel}}"
+          }
+        },
+        "EQUIPMENT_DEVICE_CREATE": {
+          "LABEL": "Nuevo equipo"
+        },
+        "EQUIPMENT_DEVICE_EDIT": {
+          "LABEL": "Equipo {{deviceLabel}}"
+        }
+      },
+      "EQUIPMENT_CONFIGURATION": {
+        "LABEL": "Configuración de equipos",
+        "EQUIPMENT_APPLICATION_VERSION": {
+          "LABEL": "Versiones",
+          "CREATE": {
+            "LABEL": "Nueva versión de la aplicación"
+          },
+          "EDIT": {
+            "LABEL": "Versión de la aplicación {{versionLabel}}"
+          },
+          "DUPLICATE": {
+            "LABEL": "Duplicación de la versión {{versionLabel}}"
+          },
+          "VERSION_ID": {
+            "LABEL": "Versión de la aplicación {{versionLabel}}",
+            "PARAMETER": {
+              "CREATE": {
+                "LABEL": "Nuevo parámetro"
+              },
+              "EDIT": {
+                "LABEL": "Parámetro {{parameterLabel}}"
+              }
+            }
+          },
+          "LOADING": {
+            "LABEL": "Cargando..."
+          }
+        },
+        "EQUIPMENT_BROADCAST": {
+          "LABEL": "Transmisión {{broadcastLabel}}",
+          "CREATE": {
+            "LABEL": "Nueva transmisión"
+          },
+          "EDIT": {
+            "LABEL": "Transmisión {{broadcastLabel}}"
+          },
+          "DUPLICATE": {
+            "LABEL": "Duplicación de la transmisión {{broadcastLabel}}"
+          },
+          "LOADING": {
+            "LABEL": "Cargando..."
+          }
+        }
+      }
+    },
+    "APPLICATIONS": {
+      "LABEL": "Aplicaciones",
+      "MOBILE": {
+        "LABEL": "Aplicaciones móviles",
+        "CREATE": {
+          "LABEL": "Nueva aplicación móvil"
+        },
+        "EDIT": {
+          "LABEL": "Aplicación {{ applicationLabel }}",
+          "VERSIONS": {
+            "CREATE": {
+              "LABEL": "Nueva versión"
+            },
+            "VERSION_ID": {
+              "LABEL": "Versión {{ versionLabel }}",
+              "PARAMETER": {
+                "LABEL": "Parámetro",
+                "CREATE": {
+                  "LABEL": "Nuevo parámetro"
+                },
+                "EDIT": {
+                  "LABEL": "Parámetro {{parameterLabel}}"
+                }
+              }
+            },
+            "DUPLICATE": {
+              "LABEL": "Duplicación de la versión {{ versionLabel }}"
+            }
+          }
+        },
+        "LOADING": {
+          "LABEL": "Cargando..."
+        }
+      }
+    },
+    "CUSTOMERS": {
+      "LABEL": "Clientes",
+      "CREATE": {
+        "LABEL": "Nuevo cliente"
+      },
+      "EDIT": {
+        "LABEL": "Cliente {{customerLabel}}"
+      }
+    },
+    "ORGANIZATION": {
+      "LABEL": "Organización",
+      "OPERATORS": {
+        "LABEL": "Operadores de transporte",
+        "CREATE": {
+          "LABEL": "Nuevo operador de transporte"
+        },
+        "EDIT": {
+          "LABEL": "{{operatorLabel}}"
+        }
+      },
+      "PERMISSIONS": {
+        "LABEL": "Permisos",
+        "ROLE": {
+          "CREATE": {
+            "LABEL": "Nuevo rol"
+          },
+          "EDIT": {
+            "LABEL": "Rol {{roleLabel}}"
+          }
+        },
+        "GROUP": {
+          "CREATE": {
+            "LABEL": "Nuevo grupo"
+          },
+          "EDIT": {
+            "LABEL": "Grupo {{groupLabel}}"
+          }
+        }
+      },
+      "AGENTS": {
+        "LABEL": "Agentes",
+        "CREATE": {
+          "LABEL": "Nuevo agente"
+        },
+        "EDIT": {
+          "LABEL": "{{agentLabel}}"
+        }
+      }
+    },
+    "ADMINISTRATION": {
+      "LABEL": "Administración",
+      "DATA": {
+        "LABEL": "Datos"
+      }
+    },
+    "SERVICE_OFFER": {
+      "LABEL": "Oferta de servicio",
+      "DISTRIBUTION_CHANNELS": {
+        "LABEL": "Canales de distribución",
+        "CREATE": {
+          "LABEL": "Nuevo canale de distribución"
+        },
+        "EDIT": {
+          "LABEL": "{{distributionChannelLabel}}"
+        }
+      },
+      "LANGUAGES": {
+        "LABEL": "Idiomas",
+        "CREATE": {
+          "LABEL": "Nuevo idioma"
+        },
+        "EDIT": {
+          "LABEL": "{{languageLabel}}"
+        }
+      },
+      "TOPOLOGY": {
+        "LABEL": "Topologías",
+        "CREATE": {
+          "LABEL": "Nueva versión de topología"
+        },
+        "EDIT": {
+          "LABEL": "{{versionLabel}}"
+        },
+        "DUPLICATE": {
+          "LABEL": "Duplicación de {{versionLabel}}"
+        },
+        "LOADING": {
+          "LABEL": "Cargando..."
+        },
+        "VERSION_ID": {
+          "LABEL": "{{versionLabel}}",
+          "NETWORK": {
+            "LABEL": "Red",
+            "CREATE": {
+              "LABEL": "Nueva red"
+            },
+            "EDIT": {
+              "NETWORK_ID": {
+                "LABEL": "Red {{networkLabel}}"
+              }
+            }
+          },
+          "ZONE": {
+            "CREATE": {
+              "LABEL": "Nueva zona"
+            },
+            "EDIT": {
+              "ZONE_ID": {
+                "LABEL": "Zona {{zoneLabel}}"
+              }
+            }
+          },
+          "STOP_PLACE": {
+            "LABEL": "Lugar",
+            "CREATE": {
+              "LABEL": "Nuevo lugar"
+            },
+            "EDIT": {
+              "STOP_PLACE_ID": {
+                "LABEL": "Lugar {{stopPlaceLabel}}",
+                "STOP_POINT": {
+                  "EDIT": {
+                    "STOP_POINT_ID": {
+                      "LABEL": "Parada {{stopPointLabel}}"
+                    }
+                  },
+                  "CREATE": {
+                    "LABEL": "Nueva parada"
+                  }
+                }
+              }
+            }
+          },
+          "LINE": {
+            "LABEL": "Línea",
+            "CREATE": {
+              "LABEL": "Nueva línea"
+            },
+            "EDIT": {
+              "LINE_ID": {
+                "LABEL": "Línea {{lineLabel}}",
+                "ROUTE": {
+                  "CREATE": {
+                    "LABEL": "Nueva misión"
+                  },
+                  "EDIT": {
+                    "ROUTE_ID": {
+                      "LABEL": "Misión {{routeLabel}}"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "LINE_TYPE": {
+            "LABEL": "Tipos de línea",
+            "CREATE": {
+              "LABEL": "Nuevo tipo de línea"
+            },
+            "EDIT": {
+              "LINE_TYPE_ID": {
+                "LABEL": "Tipo de línea {{lineTypeLabel}}"
+              }
+            }
+          }
+        }
+      },
+      "FARE_STRUCTURE": {
+        "LABEL": "Ofertas de tarifa",
+        "CREATE": {
+          "LABEL": "Nueva versión de oferta de tarifa"
+        },
+        "EDIT": {
+          "LABEL": "{{versionLabel}}"
+        },
+        "DUPLICATE": {
+          "LABEL": "Duplicación de {{versionLabel}}"
+        },
+        "LOADING": {
+          "LABEL": "Cargando..."
+        },
+        "VERSION_ID": {
+          "LABEL": "{{versionLabel}}",
+          "PROFILE": {
+            "LABEL": "Perfiles",
+            "CREATE": {
+              "LABEL": "Nuevo perfile"
+            },
+            "EDIT": {
+              "PROFILE_ID": {
+                "LABEL": "Perfil {{profileLabel}}"
+              }
+            }
+          },
+          "FARE_CLASS": {
+            "LABEL": "Clase",
+            "CREATE": {
+              "LABEL": "Nueva clase"
+            },
+            "EDIT": {
+              "FARE_CLASS_ID": {
+                "LABEL": "Clase {{fareClassLabel}}"
+              }
+            }
+          },
+          "FARE_PRODUCT": {
+            "LABEL": "Productos de tarifa",
+            "CREATE": {
+              "LABEL": "Nuevo producto"
+            },
+            "EDIT": {
+              "FARE_PRODUCT_ID": {
+                "LABEL": "Producto de tarifa {{fareProductLabel}}"
+              }
+            }
+          },
+          "FARE_PERIOD": {
+            "LABEL": "Periodos",
+            "CREATE": {
+              "LABEL": "Nuevo período"
+            },
+            "EDIT": {
+              "FARE_PERIOD_ID": {
+                "LABEL": "Período {{farePeriodLabel}}"
+              }
+            }
+          }
+        }
+      },
+      "OFFER_VERSION": {
+        "LABEL": "Versiones de oferta de servicio",
+        "CREATE": {
+          "LABEL": "Nueva versión de oferta de servicio"
+        },
+        "EDIT": {
+          "LABEL": "{{versionLabel}}"
+        },
+        "DUPLICATE": {
+          "LABEL": "Duplicación de {{versionLabel}}"
+        }
+      },
+      "TRANSPORT_MODES": {
+        "LABEL": "Modos de transporte",
+        "CREATE": {
+          "LABEL": "Nuevo modo des transporte"
+        },
+        "EDIT": {
+          "LABEL": "{{transportModeLabel}}"
+        }
+      },
+      "VAT": {
+        "LABEL": "Tasas de IVA",
+        "CREATE": {
+          "LABEL": "Nuevo tasa de IVA"
+        },
+        "EDIT": {
+          "LABEL": "{{vatLabel}}"
+        }
+      },
+      "SUPPORTING_DOCUMENT_TYPES": {
+        "LABEL": "Tipos de prueba",
+        "CREATE": {
+          "LABEL": "Nuevo tipo de prueba"
+        },
+        "EDIT": {
+          "LABEL": "{{supportingDocumentTypeLabel}}"
+        }
+      }
+    },
+    "TICKETING": {
+      "LABEL": "Soportes y títulos",
+      "MEDIA": {
+        "LABEL": "Soportes",
+        "LOADING": {
+          "LABEL": "Loading..."
+        },
+        "MEDIA_TYPES_CREATE": {
+          "LABEL": "Nuevo tipo de soporte"
+        },
+        "MEDIA_TYPES_EDIT": {
+          "LABEL": "Tipo de soporte {{mediaTypeLabel}}"
+        },
+        "MEDIUM_CREATE": {
+          "LABEL": "Nuevo soporte"
+        },
+        "MEDIUM_EDIT": {
+          "LABEL": "Soporte {{mediumLabel}}"
+        }
+      }
+    },
+    "LOGIN": {
+      "LABEL": "Login"
+    }
+  },
+  "DIRTY_MODAL_CONFIRMATION": {
+    "MODIFICATIONS": "Hay modificaciones en curso.",
+    "WARN": "¿Está seguro de continuar y perder estos cambios?",
+    "BACK": "Atràs",
+    "CONTINUE": "Continuar"
+  },
+  "LOCALIZED_INPUT_FORM": {
+    "LABELS_AND_DESCRIPTION": "Etiquetas y descripción ({{localizedLabel}})",
+    "LABELS": "Etiquetas ({{localizedLabel}})",
+    "LOCALIZED_LABEL": "Etiqueta ({{localizedLabel}})",
+    "LOCALIZED_SHORT_LABEL": "Etiqueta corta ({{localizedLabel}})",
+    "LOCALIZED_DESCRIPTION": "Descripción ({{localizedLabel}})",
+    "CODE": "Código",
+    "EXTERNAL_CODE": "Código externo"
+  },
+  "CONTACT": {
+    "CITY": "Ciudad",
+    "POSTAL_CODE": "Código postal",
+    "COUNTRY": "País",
+    "CONTACT_ADDRESS": "Dirección de contacto",
+    "HEAD_OFFICE_ADDRESS": "Dirección del domicilio social"
+  },
+  "WRAPPER": {
+    "LOCKER": {
+      "LOCK_VIEW_UPDATE_OR_DELETE": "Para modificar o eliminar, haga clic en el candado",
+      "LOCK_VIEW_UPDATE": "Para modificar, haga clic en el candado",
+      "LOCK_VIEW_DELETE": "Para eliminar, haga clic en el candado",
+      "UNLOCK_VIEW_UPDATE_OR_DELETE": "Para evitar modificaciones y eliminación, haga clic en el candado",
+      "UNLOCK_VIEW_UPDATE": "Para evitar modificaciones, haga clic en el candado",
+      "UNLOCK_VIEW_DELETE": "Para evitar la eliminación, haga clic en el candado",
+      "READ_VIEW": "Sólo vista"
+    },
+    "DELETE-BOX": {
+      "DELETE_NOT_POSSIBLE": "No es posible eliminar",
+      "CONFIRM_DELETE_WARNING": "¡Esta acción es irreversible!",
+      "CANCEL": "Cancelar",
+      "DELETE": "Eliminar"
+    },
+    "DEACTIVATE_BOX": {
+      "NOT_POSSIBLE_ACTIVATED": "No es posible desactivar",
+      "NOT_POSSIBLE_DEACTIVATED": "No es posible activar",
+      "STATUS": "Estatus : ",
+      "STATE": "Estado : ",
+      "CANCEL": "Cancelar",
+      "ACTIVATED": "Desactivar",
+      "DEACTIVATED": "Activar"
+    },
+    "AVAILABILITY_BOX": {
+      "STATUS": "Estatus : ",
+      "CANCEL": "Cancelar",
+      "DRAFT": "Validar",
+      "AVAILABLE_FOR_BROADCAST": "Invalidar",
+      "NOT_POSSIBLE_AVAILABLE_FOR_BROADCAST": "No es posible invalidar",
+      "NOT_POSSIBLE_DRAFT": "No es posible validar",
+      "NOT_POSSIBLE_ARCHIVED": "Version archivado"
+    },
+    "ARCHIVE_BOX": {
+      "STATUS": "Versión que se puede archivar",
+      "CANCEL": "Cancelar",
+      "ARCHIVE": "Archivar",
+      "NOT_POSSIBLE": "No es posible archivar"
+    },
+    "BUTTONS": {
+      "SAVE": "Guardar"
+    },
+    "MESSAGES": {
+      "TOOLTIP": "Por favor introduzca los campos requeridos",
+      "ERROR_RETRIEVING_DATA": "Información temporalmente no disponible"
+    },
+    "AUTO_SAVE_BANNER": {
+      "LABEL": "Todos los cambios se guardan automáticamente"
+    }
+  },
+  "INPUT_IMAGE": {
+    "ADD_IMAGE": "Agregar\nuna imagen",
+    "DESCRIPTION": "image",
+    "CHANGE_IMAGE": "Modificar",
+    "DELETE_IMAGE": "Eliminar"
+  },
+  "TABLE": {
+    "MISSING_VALUE": "Valor indefinido ({{defaultLang}})",
+    "COMPLETE": "Completar"
+  },
+  "VERSION_PARAMETER": {
+    "ENTITY_LABEL": "Parámetros asociados",
+    "KEY": "Llave",
+    "LABEL": "Etiqueta",
+    "TYPE": "Tipo",
+    "DEFAULT_VALUES": "Valores por defecto",
+    "DEFAULT_VALUE": "Valor por defecto",
+    "ALLOWED_VALUES": "Valores posibles",
+    "IS_USED": "Parámetro no eliminable",
+    "IS_NOT_USED": "Parámetro eliminable",
+    "PARAMETER_TYPE": {
+      "TEXT": "Texto",
+      "PASSWORD": "Contraseña",
+      "RADIO": "Opción única",
+      "CHECKBOX": "Opción múltiple"
+    },
+    "ACTION": {
+      "DELETE": "Eliminar este parámetro"
+    },
+    "MESSAGES": {
+      "CONFIRM_DELETE": "Está a punto de eliminar este parámetro&nbsp;: "
+    },
+    "BUTTON": {
+      "DELETE_SETTING": "Eliminar este parámetro"
+    }
+  },
+  "BUTTON": {
+    "ACTION_NEW": "Nuevo",
+    "ACTION_ADD": "Agregar"
+  },
+  "ERRORS": {
+    "REQUIRED": "Campo obligatorio",
+    "IETF": "Tag de idioma con formato incorrecto",
+    "DUPLICATE": "Valor ya existada",
+    "MIN": "Valor demasiado bajo",
+    "MAX": "Valor demasiado grande",
+    "YEARS": "El valor mínimo debe ser menor que el máximo",
+    "MIN_MAX_BALANCE": "El valor mínimo debe ser menor que el máximo",
+    "MIN_MAX_TOPUP": "El valor mínimo debe ser menor que el máximo",
+    "TOPUP_LIMIT": "Monto máximo por recarga debe ser menor que el saldo máximo",
+    "EMAIL": "Email con formato incorrecto",
+    "UNAUTHORIZED": "Acceso prohibido{{shared.ERRORS.ADMIN_CONTACT}}",
+    "NOT_FOUND": "Servicio inaccesible{{shared.ERRORS.ADMIN_CONTACT}}",
+    "UNIQUE_VIOLATION": "No se respeta la restricción de unicidad",
+    "SERVER_ERROR": "Se ha producido un error{{shared.ERRORS.ADMIN_CONTACT}}",
+    "BAD_REQUEST": "Se ha producido un error{{shared.ERRORS.ADMIN_CONTACT}}",
+    "ADMIN_CONTACT": ", por favor contacte al administrador",
+    "FORBIDDEN": "Operación prohibida",
+    "DATE": "Fecha inválida",
+    "START_DATE": "Fecha de inicio inválida",
+    "END_DATE": "Fecha de finalización inválida",
+    "DATE_OVERLAPS": "Superposición de fechas",
+    "DATE_IN_PAST": "La fecha debe ser posterior a la fecha de hoy",
+    "BROADCAST_EXISTING": "La fecha de transmisión ya existada",
+    "BROADCAST_EFFECTIVE_EXISTING": "La fecha de aplicación ya existada",
+    "BROADCAST_MIN_MAX_DATE": "La fecha de aplicación debe ser posterior a la fecha de transmisión",
+    "PHONE_FORMAT": "Formato inválido",
+    "NOT_AVAILABLE": "Estado no válido",
+    "MISSING_START_DATE": "Fecha de inicio falta",
+    "MISSING_END_DATE": "Fecha de finalización falta",
+    "UNKNOWN": "Se ha producido un error desconocido{{shared.ERRORS.ADMIN_CONTACT}}",
+    "INVALID_FORMAT": "Formato no válido",
+    "APPLICATION_VERSION_DUPLICATE": "Número de versión ya utilizado",
+    "DEFAULT": ".",
+    "FARE_STRUCTURE": {
+      "FARE_PERIOD": {
+        "FARE_PERIOD_CONFLICT": "El período de tarifa se superpone con otro período de tarifa existente"
+      }
+    }
+  },
+  "MESSAGES": {
+    "DATA_SAVED": "Datos guardados",
+    "DATA_DELETED": "Datos eliminados",
+    "EMPTY_TABLE": "Ningún elemento",
+    "EMPTY_FILTERED_TABLE": "Ningún resultado",
+    "ERROR_RETRIEVING_DATA": "Información temporalmente no disponible",
+    "DOWNLOAD_ABORT": "Descarga abortada. Intentar otra vez",
+    "DOWNLOAD_OK": "Descarga exitosa"
+  },
+  "TOOLTIPS": {
+    "AT_LEAST_ONE_LANGUAGE_NEEDED": "Se debe configurar al menos un idioma",
+    "AT_LEAST_ONE_LANGUAGE_AND_TOPOLOGY_NEEDED": "Se debe configurar al menos un idioma y una versión de topología en estado \"Borrador\" o \"Disponible\"",
+    "AT_LEAST_ONE_TOPOLOGY_NEEDED": "una versión de topología en estado \"Borrador\" o \"Disponible\"",
+    "AT_LEAST_ONE_OPERATOR_NEEDED": "Se debe configurar al menos un operador de transporte con el estado \"Activado\"",
+    "AT_LEAST_ONE_TRANSPORT_MODE_NEEDED": "Se debe configurar al menos un modo de transporte",
+    "AT_LEAST_ONE_OPERATOR_AND_TRANSPORT_MODE_NEEDED": "Se debe configurar al menos un operador de transporte con el estado \"Activado\" y un modo de transporte",
+    "AT_LEAST_ONE_ZONE_NEEDED": "Se debe configurar al menos una zona",
+    "AT_LEAST_ONE_STOP_POINT_NEEDED": "Se debe configurar al menos una parada",
+    "AT_LEAST_ONE_NETWORK_NEEDED": "Se debe configurar al menos una red",
+    "AT_LEAST_ONE_MEDIA_TYPE_NEEDED": "Se debe configurar al menos un tipo de soporte",
+    "AT_LEAST_ONE_BROADCASTED_SERVICE_OFFER_NEEDED": "Se debe configurar al menos una versión de oferta de servicio en estado \"Difusible\"",
+    "AT_LEAST_ONE_EQUIPMENT_GROUP_NEEDED": "Se debe configurar al menos un grupo de equipo",
+    "AT_LEAST_ONE_EQUIPMENT_GROUP_AND_BROADCASTED_SERVICE_OFFER_NEEDED": "Se debe configurar al menos un grupo de equipo y una versión de oferta de servicio en estado \"Difusible\"",
+    "ACCESS_EQUIPMENTS_PARK": {
+      "OPERATOR": "Se debe configurar al menos un operador de transporte con el estado \"Activado\"",
+      "OPERATOR__SERVICE_OFFER__VEHICLES": "Se debe configurar al menos un operador de transporte con el estado \"Activado\" y se debe configurar la versión de referencia de la oferta de servicio o se debe configurar al menos un vehículo",
+      "OPERATOR__TOPOLOGY__VEHICLES": "Se debe configurar al menos un operador de transporte con el estado \"Activado\" y la versión de referencia de la oferta de servicio debe incluir una versión de topología o se debe configurar al menos un vehículo",
+      "SERVICE_OFFER__VEHICLES": "Se debe configurar la versión de referencia de la oferta de servicio o se debe configurar al menos un vehículo",
+      "TOPOLOGY__VEHICLES": "La versión de referencia de la oferta de servicio debe incluir una versión de topología o se debe configurar al menos un vehículo"
+    }
+  }
+}

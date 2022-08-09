@@ -1,0 +1,247 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ticketing-lib-ui": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/ticketing-lib-ui",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "projects/ticketing-lib-ui-library/src/assets",
+                "output": "./assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/ticketing-graphic-kit/src/assets",
+                "output": "./assets"
+              }
+            ],
+            "styles": ["src/styles.scss"],
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": ["projects/ticketing-graphic-kit/src/assets/sass"]
+            },
+            "allowedCommonJsDependencies": ["keycloak-js", "flat", "base64-js", "js-sha256"]
+          },
+          "configurations": {
+            "production": {
+              "baseHref": "",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "node_modules/@ixxi/ticketing-graphic-kit/src/assets/sass",
+                  "dist/ticketing-graphic-kit/src/assets/sass"
+                ]
+              },
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ]
+            },
+            "development": {
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "buildOptimizer": false,
+              "sourceMap": true,
+              "optimization": false,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "proxy.conf.json"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ticketing-lib-ui:build:production"
+            },
+            "development": {
+              "browserTarget": "ticketing-lib-ui:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ticketing-lib-ui:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "configPath": "jest.base.config.ts",
+            "styles": ["./node_modules/@angular/material/prebuilt-themes/indigo-pink.css", "src/styles.scss"],
+            "scripts": [],
+            "assets": ["src/assets"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.component.html"]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ticketing-lib-ui:serve:production"
+            },
+            "development": {
+              "devServerTarget": "ticketing-lib-ui:serve:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        }
+      }
+    },
+    "ticketing-lib-ui-library": {
+      "projectType": "library",
+      "root": "projects/ticketing-lib-ui-library",
+      "sourceRoot": "projects/ticketing-lib-ui-library/src",
+      "prefix": "bixxi",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ticketing-lib-ui-library/tsconfig.lib.json",
+            "project": "projects/ticketing-lib-ui-library/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ticketing-lib-ui-library/tsconfig.lib.prod.json",
+              "project": "projects/ticketing-lib-ui-library/ng-package.prod.json"
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "configPath": "jest.config.ts",
+            "styles": ["src/styles.scss"],
+            "scripts": [],
+            "assets": ["assets"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ticketing-lib-ui-library/src/lib/**/*.ts",
+              "projects/ticketing-lib-ui-library/src/lib/**/*.html"
+            ]
+          }
+        }
+      }
+    },
+    "ticketing-graphic-kit": {
+      "projectType": "library",
+      "root": "projects/ticketing-graphic-kit",
+      "sourceRoot": "projects/ticketing-graphic-kit/src",
+      "prefix": "bixxi",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ticketing-graphic-kit/tsconfig.graphickit.json",
+            "project": "projects/ticketing-graphic-kit/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ticketing-graphic-kit/tsconfig.graphickit.prod.json"
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "configPath": "jest.config.ts",
+            "styles": ["src/styles.scss"],
+            "scripts": [],
+            "assets": ["assets"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ticketing-graphic-kit/src/lib/**/*.ts",
+              "projects/ticketing-graphic-kit/src/lib/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "packageManager": "yarn",
+    "analytics": "27945f65-3783-4b3e-a666-0b9bc680a761",
+    "schematicCollections": [
+      "bixxi-schematics"
+    ]
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    },
+    "@ngneat/spectator:spectator-component": {
+      "changeDetection": "OnPush",
+      "style": "scss",
+      "jest": true
+    },
+    "@ngneat/spectator:spectator-service": {
+      "jest": true
+    },
+    "@ngneat/spectator:spectator-directive": {
+      "jest": true
+    },
+    "@ngneat/spectator:spectator-pipe": {
+      "jest": true
+    }
+  }
+}

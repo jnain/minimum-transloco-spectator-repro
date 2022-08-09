@@ -1,0 +1,630 @@
+{
+  "SIDEBAR": {
+    "HOME": "Home",
+    "ORGANIZATION": "Organization",
+    "SERVICE_OFFER": "Service offer",
+    "CUSTOMERS": "Customers",
+    "EQUIPMENT": "Equipment",
+    "APPLICATIONS": "Applications",
+    "SUPERVISION": "Supervision",
+    "MEDIA_AND_TICKETS": "Media and tickets",
+    "FINANCIAL_MANAGEMENT": "Financial management",
+    "ADMINISTRATION": "Administration",
+    "LANGUAGE": "Language",
+    "HELP": {
+      "LABEL": "Help",
+      "MANUAL": "User manual",
+      "ABOUT": "About…"
+    }
+  },
+  "BREADCRUMB": {
+    "WELCOME": "Welcome to your administration portal",
+    "EQUIPMENTS": {
+      "LABEL": "Equipment",
+      "SECURITY_MODULES": {
+        "LABEL": "Security modules",
+        "SAM_TYPES_CREATE": {
+          "LABEL": "New SAM type"
+        },
+        "SAM_TYPES_EDIT": {
+          "LABEL": "SAM type {{samTypeLabel}}"
+        }
+      },
+      "VEHICLES": {
+        "LABEL": "Vehicles",
+        "CREATE": {
+          "LABEL": "New vehicle"
+        },
+        "EDIT": {
+          "LABEL": "Vehicle {{vehicleLabel}}"
+        }
+      },
+      "EQUIPMENT_PARK": {
+        "LABEL": "Equipment park",
+        "EQUIPMENT_MODEL_EDIT": {
+          "LABEL": "Equipment model {{modelLabel}}",
+          "EQUIPMENT_DEVICE_CREATE": {
+            "LABEL": "New equipment"
+          },
+          "EQUIPMENT_DEVICE_EDIT": {
+            "LABEL": "Equipment {{deviceLabel}}"
+          }
+        },
+        "EQUIPMENT_GROUP_CREATE": {
+          "LABEL": "New equipment group"
+        },
+        "EQUIPMENT_GROUP_EDIT": {
+          "LABEL": "Group {{groupLabel}}",
+          "EQUIPMENT_DEVICE_CREATE": {
+            "LABEL": "New equipment"
+          },
+          "EQUIPMENT_DEVICE_EDIT": {
+            "LABEL": "Equipment {{deviceLabel}}"
+          }
+        },
+        "EQUIPMENT_DEVICE_CREATE": {
+          "LABEL": "New equipment"
+        },
+        "EQUIPMENT_DEVICE_EDIT": {
+          "LABEL": "Equipment {{deviceLabel}}"
+        }
+      },
+      "EQUIPMENT_CONFIGURATION": {
+        "LABEL": "Equipment configuration",
+        "EQUIPMENT_APPLICATION_VERSION": {
+          "LABEL": "Versions",
+          "CREATE": {
+            "LABEL": "New application version"
+          },
+          "EDIT": {
+            "LABEL": "Application version {{versionLabel}}"
+          },
+          "DUPLICATE": {
+            "LABEL": "Duplicate the version {{versionLabel}}"
+          },
+          "VERSION_ID": {
+            "LABEL": "Application version {{versionLabel}}",
+            "PARAMETER": {
+              "CREATE": {
+                "LABEL": "New setting"
+              },
+              "EDIT": {
+                "LABEL": "Setting {{parameterLabel}}"
+              }
+            }
+          },
+          "LOADING": {
+            "LABEL": "Loading..."
+          }
+        },
+        "EQUIPMENT_BROADCAST": {
+          "LABEL": "Broadcast {{broadcastLabel}}",
+          "CREATE": {
+            "LABEL": "New broadcast"
+          },
+          "EDIT": {
+            "LABEL": "Broadcast {{broadcastLabel}}"
+          },
+          "DUPLICATE": {
+            "LABEL": "Duplicate the broadcast {{broadcastLabel}}"
+          },
+          "LOADING": {
+            "LABEL": "Loading..."
+          }
+        }
+      }
+    },
+    "APPLICATIONS": {
+      "LABEL": "Applications",
+      "MOBILE": {
+        "LABEL": "Mobile apps",
+        "CREATE": {
+          "LABEL": "New mobile app"
+        },
+        "EDIT": {
+          "LABEL": "App {{ applicationLabel }}",
+          "VERSIONS": {
+            "CREATE": {
+              "LABEL": "New version"
+            },
+            "VERSION_ID": {
+              "LABEL": "Version {{ versionLabel }}",
+              "PARAMETER": {
+                "LABEL": "Setting",
+                "CREATE": {
+                  "LABEL": "New setting"
+                },
+                "EDIT": {
+                  "LABEL": "Setting {{parameterLabel}}"
+                }
+              }
+            },
+            "DUPLICATE": {
+              "LABEL": "Duplicate the version {{ versionLabel }}"
+            }
+          }
+        },
+        "LOADING": {
+          "LABEL": "Loading..."
+        }
+      }
+    },
+    "CUSTOMERS": {
+      "LABEL": "Customers",
+      "CREATE": {
+        "LABEL": "New customer"
+      },
+      "EDIT": {
+        "LABEL": "Customer {{customerLabel}}"
+      }
+    },
+    "ORGANIZATION": {
+      "LABEL": "Organization",
+      "OPERATORS": {
+        "LABEL": "Transport operators",
+        "CREATE": {
+          "LABEL": "New transport operator"
+        },
+        "EDIT": {
+          "LABEL": "{{operatorLabel}}"
+        }
+      },
+      "PERMISSIONS": {
+        "LABEL": "Permissions",
+        "ROLE": {
+          "CREATE": {
+            "LABEL": "New role"
+          },
+          "EDIT": {
+            "LABEL": "Role {{roleLabel}}"
+          }
+        },
+        "GROUP": {
+          "CREATE": {
+            "LABEL": "New group"
+          },
+          "EDIT": {
+            "LABEL": "Group {{groupLabel}}"
+          }
+        }
+      },
+      "AGENTS": {
+        "LABEL": "Agents",
+        "CREATE": {
+          "LABEL": "New agent"
+        },
+        "EDIT": {
+          "LABEL": "{{agentLabel}}"
+        }
+      }
+    },
+    "ADMINISTRATION": {
+      "LABEL": "Administration",
+      "DATA": {
+        "LABEL": "Data"
+      }
+    },
+    "SERVICE_OFFER": {
+      "LABEL": "Service offer",
+      "DISTRIBUTION_CHANNELS": {
+        "LABEL": "Distribution channels",
+        "CREATE": {
+          "LABEL": "New distribution channel"
+        },
+        "EDIT": {
+          "LABEL": "{{distributionChannelLabel}}"
+        }
+      },
+      "LANGUAGES": {
+        "LABEL": "Languages",
+        "CREATE": {
+          "LABEL": "New Language"
+        },
+        "EDIT": {
+          "LABEL": "{{languageLabel}}"
+        }
+      },
+      "TOPOLOGY": {
+        "LABEL": "Topologies",
+        "CREATE": {
+          "LABEL": "New topology version"
+        },
+        "EDIT": {
+          "LABEL": "{{versionLabel}}"
+        },
+        "DUPLICATE": {
+          "LABEL": "Duplication of {{versionLabel}}"
+        },
+        "LOADING": {
+          "LABEL": "Loading..."
+        },
+        "VERSION_ID": {
+          "LABEL": "{{versionLabel}}",
+          "NETWORK": {
+            "LABEL": "Network",
+            "CREATE": {
+              "LABEL": "New network"
+            },
+            "EDIT": {
+              "NETWORK_ID": {
+                "LABEL": "Network {{networkLabel}}"
+              }
+            }
+          },
+          "ZONE": {
+            "CREATE": {
+              "LABEL": "New zone"
+            },
+            "EDIT": {
+              "ZONE_ID": {
+                "LABEL": "Zone {{zoneLabel}}"
+              }
+            }
+          },
+          "STOP_PLACE": {
+            "LABEL": "Stop place",
+            "CREATE": {
+              "LABEL": "New stop place"
+            },
+            "EDIT": {
+              "STOP_PLACE_ID": {
+                "LABEL": "Stop place {{stopPlaceLabel}}",
+                "STOP_POINT": {
+                  "EDIT": {
+                    "STOP_POINT_ID": {
+                      "LABEL": "Stop {{stopPointLabel}}"
+                    }
+                  },
+                  "CREATE": {
+                    "LABEL": "New Stop"
+                  }
+                }
+              }
+            }
+          },
+          "LINE": {
+            "LABEL": "Line",
+            "CREATE": {
+              "LABEL": "New line"
+            },
+            "EDIT": {
+              "LINE_ID": {
+                "LABEL": "Line {{lineLabel}}",
+                "ROUTE": {
+                  "CREATE": {
+                    "LABEL": "New route"
+                  },
+                  "EDIT": {
+                    "ROUTE_ID": {
+                      "LABEL": "Route {{routeLabel}}"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "LINE_TYPE": {
+            "LABEL": "Line types",
+            "CREATE": {
+              "LABEL": "New line type"
+            },
+            "EDIT": {
+              "LINE_TYPE_ID": {
+                "LABEL": "Line type {{lineTypeLabel}}"
+              }
+            }
+          }
+        }
+      },
+      "FARE_STRUCTURE": {
+        "LABEL": "Tariff offers",
+        "CREATE": {
+          "LABEL": "New version of tariff offer"
+        },
+        "EDIT": {
+          "LABEL": "{{versionLabel}}"
+        },
+        "DUPLICATE": {
+          "LABEL": "Duplication of {{versionLabel}}"
+        },
+        "LOADING": {
+          "LABEL": "Loading..."
+        },
+        "VERSION_ID": {
+          "LABEL": "{{versionLabel}}",
+          "PROFILE": {
+            "LABEL": "Profiles",
+            "CREATE": {
+              "LABEL": "New profile"
+            },
+            "EDIT": {
+              "PROFILE_ID": {
+                "LABEL": "Profile {{profileLabel}}"
+              }
+            }
+          },
+          "FARE_CLASS": {
+            "LABEL": "Class",
+            "CREATE": {
+              "LABEL": "New class"
+            },
+            "EDIT": {
+              "FARE_CLASS_ID": {
+                "LABEL": "Class {{fareClassLabel}}"
+              }
+            }
+          },
+          "FARE_PRODUCT": {
+            "LABEL": "Fare products",
+            "CREATE": {
+              "LABEL": "New Fare product"
+            },
+            "EDIT": {
+              "FARE_PRODUCT_ID": {
+                "LABEL": "Fare product {{fareProductLabel}}"
+              }
+            }
+          },
+          "FARE_PERIOD": {
+            "LABEL": "Periods",
+            "CREATE": {
+              "LABEL": "New period"
+            },
+            "EDIT": {
+              "FARE_PERIOD_ID": {
+                "LABEL": "Period {{farePeriodLabel}}"
+              }
+            }
+          }
+        }
+      },
+      "OFFER_VERSION": {
+        "LABEL": "Versions of service offer",
+        "CREATE": {
+          "LABEL": "New version of service offer"
+        },
+        "EDIT": {
+          "LABEL": "{{versionLabel}}"
+        },
+        "DUPLICATE": {
+          "LABEL": "Duplication of {{versionLabel}}"
+        }
+      },
+      "TRANSPORT_MODES": {
+        "LABEL": "Modes of transport",
+        "CREATE": {
+          "LABEL": "New mode of transport"
+        },
+        "EDIT": {
+          "LABEL": "{{transportModeLabel}}"
+        }
+      },
+      "VAT": {
+        "LABEL": "VAT rates",
+        "CREATE": {
+          "LABEL": "New VAT rate"
+        },
+        "EDIT": {
+          "LABEL": "{{vatLabel}}"
+        }
+      },
+      "SUPPORTING_DOCUMENT_TYPES": {
+        "LABEL": "Supporting document types",
+        "CREATE": {
+          "LABEL": "New supporting document type"
+        },
+        "EDIT": {
+          "LABEL": "{{supportingDocumentTypeLabel}}"
+        }
+      }
+    },
+    "TICKETING": {
+      "LABEL": "Media and tickets",
+      "MEDIA": {
+        "LABEL": "Media",
+        "LOADING": {
+          "LABEL": "Cargando..."
+        },
+        "MEDIA_TYPES_CREATE": {
+          "LABEL": "New media type"
+        },
+        "MEDIA_TYPES_EDIT": {
+          "LABEL": "Media type {{mediaTypeLabel}}"
+        },
+        "MEDIUM_CREATE": {
+          "LABEL": "New media"
+        },
+        "MEDIUM_EDIT": {
+          "LABEL": "Media {{mediumLabel}}"
+        }
+      }
+    },
+    "LOGIN": {
+      "LABEL": "Login"
+    }
+  },
+  "DIRTY_MODAL_CONFIRMATION": {
+    "MODIFICATIONS": "Modifications are in progress.",
+    "WARN": "Are you sure you want to continue and lose changes?",
+    "BACK": "Back",
+    "CONTINUE": "Continue"
+  },
+  "LOCALIZED_INPUT_FORM": {
+    "LABELS_AND_DESCRIPTION": "Labels and description ({{localizedLabel}})",
+    "LABELS": "Labels ({{localizedLabel}})",
+    "LOCALIZED_LABEL": "Label  ({{localizedLabel}})",
+    "LOCALIZED_SHORT_LABEL": "Short label ({{localizedLabel}})",
+    "LOCALIZED_DESCRIPTION": "Description ({{localizedLabel}})",
+    "CODE": "Code",
+    "EXTERNAL_CODE": "External code"
+  },
+  "CONTACT": {
+    "CITY": "City",
+    "POSTAL_CODE": "Postal code",
+    "COUNTRY": "Country",
+    "CONTACT_ADDRESS": "Contact address",
+    "HEAD_OFFICE_ADDRESS": "Head office address"
+  },
+  "WRAPPER": {
+    "LOCKER": {
+      "LOCK_VIEW_UPDATE_OR_DELETE": "To modify or delete, click on the padlock",
+      "LOCK_VIEW_UPDATE": "To modify, click on the padlock",
+      "LOCK_VIEW_DELETE": "To delete, click on the padlock",
+      "UNLOCK_VIEW_UPDATE_OR_DELETE": "To prevent modifications or deletion, click on the padlock",
+      "UNLOCK_VIEW_UPDATE": "To prevent modifications, click on the padlock",
+      "UNLOCK_VIEW_DELETE": "To prevent deletion, click on the padlock",
+      "READ_VIEW": "View only"
+    },
+    "DELETE-BOX": {
+      "DELETE_NOT_POSSIBLE": "Deletion not possible",
+      "CONFIRM_DELETE_WARNING": "This action is irrevocable!",
+      "CANCEL": "Cancel",
+      "DELETE": "Delete"
+    },
+    "DEACTIVATE_BOX": {
+      "NOT_POSSIBLE_ACTIVATED": "Deactivation not possible",
+      "NOT_POSSIBLE_DEACTIVATED": "Activation not possible",
+      "STATUS": "Status: ",
+      "STATE": "State: ",
+      "CANCEL": "Cancel",
+      "ACTIVATED": "Deactivate",
+      "DEACTIVATED": "Activate"
+    },
+    "AVAILABILITY_BOX": {
+      "STATUS": "Status: ",
+      "CANCEL": "Cancel",
+      "DRAFT": "Validate",
+      "AVAILABLE_FOR_BROADCAST": "Invalidate",
+      "NOT_POSSIBLE_AVAILABLE_FOR_BROADCAST": "Invalidation not possible",
+      "NOT_POSSIBLE_DRAFT": "Validation not possible",
+      "NOT_POSSIBLE_ARCHIVED": "Archived version"
+    },
+    "ARCHIVE_BOX": {
+      "STATUS": "Archivable version",
+      "CANCEL": "Cancel",
+      "ARCHIVE": "Archive",
+      "NOT_POSSIBLE": "Archive not possible"
+    },
+    "BUTTONS": {
+      "SAVE": "Save"
+    },
+    "MESSAGES": {
+      "TOOLTIP": "Please enter the required fields",
+      "ERROR_RETRIEVING_DATA": "Information temporarily unavailable"
+    },
+    "AUTO_SAVE_BANNER": {
+      "LABEL": "All modifications are saved automatically"
+    }
+  },
+  "INPUT_IMAGE": {
+    "ADD_IMAGE": "Add\nan image",
+    "DESCRIPTION": "image",
+    "CHANGE_IMAGE": "Update",
+    "DELETE_IMAGE": "Delete"
+  },
+  "TABLE": {
+    "MISSING_VALUE": "Undefined value ({{defaultLang}})",
+    "COMPLETE": "Complete"
+  },
+  "VERSION_PARAMETER": {
+    "ENTITY_LABEL": "Associated settings",
+    "KEY": "Key",
+    "LABEL": "Label",
+    "TYPE": "Type",
+    "DEFAULT_VALUES": "Default values",
+    "DEFAULT_VALUE": "Default value",
+    "ALLOWED_VALUES": "Possible values",
+    "IS_USED": "Parameter not deletable",
+    "IS_NOT_USED": "Deletable parameter",
+    "PARAMETER_TYPE": {
+      "TEXT": "Text",
+      "PASSWORD": "Password",
+      "RADIO": "Radio button",
+      "CHECKBOX": "Checkbox"
+    },
+    "ACTION": {
+      "DELETE": "Delete this setting"
+    },
+    "MESSAGES": {
+      "CONFIRM_DELETE": "You are about to delete this setting: "
+    },
+    "BUTTON": {
+      "DELETE_SETTING": "Delete this setting"
+    }
+  },
+  "BUTTON": {
+    "ACTION_NEW": "New",
+    "ACTION_ADD": "Add"
+  },
+  "ERRORS": {
+    "REQUIRED": "Field mandatory",
+    "IETF": "Incorrectly formatted language tag",
+    "DUPLICATE": "Existing value",
+    "MIN": "Value too low",
+    "MAX": "Value too high",
+    "YEARS": "Min value must be less than max",
+    "MIN_MAX_BALANCE": "Min value must be less than max",
+    "MIN_MAX_TOPUP": "Min value must be less than max",
+    "TOPUP_LIMIT": "Max top-up must be less than max balance",
+    "EMAIL": "Incorrectly formatted email",
+    "UNAUTHORIZED": "Access forbidden{{shared.ERRORS.ADMIN_CONTACT}}",
+    "NOT_FOUND": "Service inaccessible{{shared.ERRORS.ADMIN_CONTACT}}",
+    "UNIQUE_VIOLATION": "Uniqueness constraint not respected",
+    "SERVER_ERROR": "Server error{{shared.ERRORS.ADMIN_CONTACT}}",
+    "BAD_REQUEST": "Server error{{shared.ERRORS.ADMIN_CONTACT}}",
+    "ADMIN_CONTACT": ", please contact the administrator",
+    "FORBIDDEN": "Operation forbidden",
+    "DATE": "Invalid date",
+    "START_DATE": "Invalid start date",
+    "END_DATE": "Invalid end date",
+    "DATE_OVERLAPS": "Dates overlap",
+    "DATE_IN_PAST": "The date must be later than today's date",
+    "BROADCAST_EXISTING": "Broadcast date already exists",
+    "BROADCAST_EFFECTIVE_EXISTING": "Application date already exists",
+    "BROADCAST_MIN_MAX_DATE": "Application date must be later than broadcast date",
+    "PHONE_FORMAT": "Invalid format",
+    "NOT_AVAILABLE": "Status not available",
+    "MISSING_START_DATE": "Missing start date",
+    "MISSING_END_DATE": "Missing end date",
+    "UNKNOWN": "Server unknown error{{shared.ERRORS.ADMIN_CONTACT}}",
+    "INVALID_FORMAT": "Invalid format",
+    "APPLICATION_VERSION_DUPLICATE": "Version number already used",
+    "DEFAULT": ".",
+    "FARE_STRUCTURE": {
+      "FARE_PERIOD": {
+        "FARE_PERIOD_CONFLICT": "Fare Period overlaps with another existing Fare Period"
+      }
+    }
+  },
+  "MESSAGES": {
+    "DATA_SAVED": "Data saved",
+    "DATA_DELETED": "Data deleted",
+    "EMPTY_TABLE": "No item",
+    "EMPTY_FILTERED_TABLE": "No result",
+    "ERROR_RETRIEVING_DATA": "Information temporarily unavailable",
+    "DOWNLOAD_ABORT": "Download aborted. Try again",
+    "DOWNLOAD_OK": "Download successful"
+  },
+  "TOOLTIPS": {
+    "AT_LEAST_ONE_LANGUAGE_NEEDED": "At least one language must be configured",
+    "AT_LEAST_ONE_LANGUAGE_AND_TOPOLOGY_NEEDED": "At least one language and one topology version in \"Draft\" or \"Available\" state must be configured",
+    "AT_LEAST_ONE_TOPOLOGY_NEEDED": "At least one topology version in \"Draft\" or \"Available\" state must be configured",
+    "AT_LEAST_ONE_OPERATOR_NEEDED": "At least one transport operator with the status \"Activated\" must be configured",
+    "AT_LEAST_ONE_TRANSPORT_MODE_NEEDED": "At least one transport mode must be configured",
+    "AT_LEAST_ONE_OPERATOR_AND_TRANSPORT_MODE_NEEDED": "At least one transport operator with the status \"Activated\" and one transport mode must be configured",
+    "AT_LEAST_ONE_ZONE_NEEDED": "At least one zone must be configured",
+    "AT_LEAST_ONE_STOP_POINT_NEEDED": "At least one stop point must be configured",
+    "AT_LEAST_ONE_NETWORK_NEEDED": "At least one network must be configured",
+    "AT_LEAST_ONE_MEDIA_TYPE_NEEDED": "At least one media type must be configured",
+    "AT_LEAST_ONE_BROADCASTED_SERVICE_OFFER_NEEDED": "At least one service offer version in \"Diffusable\" state must be configured",
+    "AT_LEAST_ONE_EQUIPMENT_GROUP_NEEDED": "At least one equipment group must be configured",
+    "AT_LEAST_ONE_EQUIPMENT_GROUP_AND_BROADCASTED_SERVICE_OFFER_NEEDED": "At least one equipment group and one service offer version in \"Diffusable\" state must be configured",
+    "ACCESS_EQUIPMENTS_PARK": {
+      "OPERATOR": "At least one transport operator with the status \"Activated\" must be configured",
+      "OPERATOR__SERVICE_OFFER__VEHICLES": "At least one transport operator with the status \"Activated\" must be configured, and the reference version of the service offering must be configured or at least one vehicle must be configured",
+      "OPERATOR__TOPOLOGY__VEHICLES": "At least one transport operator with the status \"Activated\" must be configured, and the reference version of the service offering must include a topology version or at least one vehicle must be configured",
+      "SERVICE_OFFER__VEHICLES": "The reference version of the service offer must be configured or at least one vehicle must be configured",
+      "TOPOLOGY__VEHICLES": "The reference version of the service offer must include a topology version or at least one vehicle must be configured"
+    }
+  }
+}
